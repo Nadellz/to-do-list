@@ -1,0 +1,9 @@
+Fonts used in this design:
+
+Font: Archivo
+Author: Omnibus-Type
+Url: https://fonts.google.com/specimen/Archivo
+
+Font: Archivo Black
+Author: Omnibus-Type
+Url: https://fonts.google.com/specimen/Archivo+Black

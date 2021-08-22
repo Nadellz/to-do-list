@@ -1,0 +1,103 @@
+
+
+
+body{
+    background-color: #EBEBF2;
+    color:black;
+}
+
+footer{
+    margin-top: 30%;
+}
+
+
+
+/*Cards */
+.card{
+
+    background-color: #EBEBF2;
+    color:black;
+
+}
+
+.link-nav{
+    color:black;
+}
+
+#sign_up_form{
+    margin-top: 5%;
+    max-width: 800px;
+    min-width: 200px;
+   
+   
+}
+
+.alert{
+    overflow:auto;
+}
+
+.message_alerte{
+    color:red;
+}
+
+
+.edit-nav,.sign-in-nav{
+
+    display: flex;
+    flex-flow:wrap;
+}
+
+
+
+.nav-content-start{
+    order:1;
+    width: 50%;
+    height: auto;
+
+
+}
+
+.nav-content-end{
+    order:2;
+    width: 50%;
+    height: auto;
+
+}
+
+.nav-sign-in-start{
+    order:1;
+    width: 60%;
+    height: auto;
+}
+.nav-sign-in-end{
+    order:2;
+    
+    width: 30%;
+    height: auto;
+
+}
+
+.card{
+
+width: 15rem;
+height: 15rem;
+
+
+}
+
+.card-body{
+    overflow-y:auto;
+    overflow-x: hidden;
+}
+
+
+
+
+@media (max-width:550px){
+
+    .card{
+        margin-left:15% !important;
+        margin-right: auto;
+    }
+
+}

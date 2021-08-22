@@ -1,0 +1,148 @@
+
+*{
+    font-family: sans-serif;
+   
+}
+
+body{
+    margin:0;
+    padding:0;
+}
+
+
+ul,li{
+    margin:0; 
+    padding:0;
+    display: flex; 
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color:white;
+    padding: 0.5em;
+    border-bottom: solid 2px rgba(202, 59, 59, 0.671);
+    
+}
+
+.nav ul{
+    list-style-type: none;
+}
+
+.nav li{
+    display :inline-block;
+    padding-left:1em;
+    padding-right:1em;
+    padding-top:.75em;
+    padding-bottom:.75em;
+    
+    
+}
+
+.nav li:hover{
+    /*background-color: rgba(0, 128, 0, 0.247);*/
+    background-color: #ff55778a;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.nav a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    
+}
+
+.top-bar{
+    font-size: x-large;
+    margin-left: 0.75em;
+    
+    
+}
+
+.navbar-toggler{
+    position: absolute;
+    display: none;
+    flex-direction: column;
+    justify-content:center;
+    top: 0em;
+    right :0.5em;
+    width:45px !important;
+    height:50px !important;
+    
+}
+.navbar-toggler img{
+    border-radius: 5px;
+}
+
+.navbar-toggler img:hover{
+    border: #FF5576 solid 2px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+@media (max-width:550px){
+
+    
+    .navbar-toggler{
+        display: flex;
+        /*margin : 0.5em !important;*/
+       
+    }
+    .top-bar{
+        margin-top:.25em !important;
+        margin-bottom:-.25em !important;
+       
+    }
+    
+    .navbar{
+        flex-direction: column;
+        align-items: flex-start;
+        margin:0; 
+        padding:0;
+        border-bottom: solid 2px grey;
+    }
+
+    .nav ul{
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        height:auto;
+        
+       
+    }
+
+    .nav {
+        margin-top: 3%;
+        width: 100%;
+        height:auto;
+        
+    }
+
+    .nav li{
+        text-align: center;
+        margin:0 ; 
+        padding: 0.5em;
+        
+    }
+
+    .nav li:hover{
+        border-radius: 0;
+    }
+
+
+    .nav.active{
+        display: flex;
+    }
+
+
+}
